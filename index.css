@@ -1,0 +1,97 @@
+/* typography */
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.highlight {
+  color: #4ADF86;
+
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+/* layout */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #1c1c1c;
+  color: #D5D4D8;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  background-color: #1F2937;
+  margin: 0px auto;
+  width: 550px;
+  aspect-ratio: 1;
+}
+
+header {
+  padding: 118px 127px 51px 52px;
+}
+
+section {
+  margin: 0 auto;
+  width: 446px;
+  border-top: 1px solid #2F3E53;
+  display: flex;
+}
+
+.genaration-field-one,
+.genaration-field-two {
+  margin: 35px auto;
+  background-color: #273549;
+  width: 211px;
+  height: 39px;
+  border-radius: 6px;
+  position: relative;
+}
+
+#password-el-one,
+#password-el-two {
+  color: #55F991;
+  font-family: 'Courier New', Courier, monospace; /* changed font for better readability*/
+  font-weight: 400;
+  font-size: 17px;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  left: 17px;
+}
+
+/* buttons */
+
+button {
+  margin-top: 0;
+  margin-left: 52px;
+  margin-bottom: 35px;
+  background-color: #10B981;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+button:hover {
+  background-color: #34D399;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(.96);
+}
+
